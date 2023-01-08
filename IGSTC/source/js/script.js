@@ -57,9 +57,9 @@
     $('.timer').syotimer({
       year: 2023,
       month: 3,
-      day: 9,
-      hour: 20,
-      minute: 30
+      day: 8,
+      hour: 9,
+      minute: 00
     });
 
     // -----------------------------

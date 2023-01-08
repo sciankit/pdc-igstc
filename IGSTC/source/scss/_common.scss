@@ -112,6 +112,17 @@
     bottom: 0;
   }
 }
+.overlay-gray{
+  &:before {
+    content: '';
+    background: $gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
 
 .overlay-kousik{
   &:before {
@@ -173,7 +184,7 @@ button{
 }
 
 .bg-banner-one{
-  background: url(../images/background/banner2.jpg) no-repeat;
+  background: url(../images/background/banner2.jpg) fixed no-repeat;
   background-size: cover;
   background-position: center center;
 }

@@ -1,5 +1,5 @@
 .btn{
-	text-transform: uppercase;
+
     font-family: $secondary-font;
     transition: all .3s ease;
 }
@@ -75,6 +75,18 @@
     &:hover{
         background: $primary-color;
         color: $light;
+    }
+}
+.btn-title-md{
+    background: $primary-color;
+    color: $light;
+    font-weight: 800;
+    font-size: $medium;
+    padding: 15px 40px;
+    border-radius: 10px;
+    &:hover{
+        background: $light;
+        color: $secondary-color;
     }
 }
 
