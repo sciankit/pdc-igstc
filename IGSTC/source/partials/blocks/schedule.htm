@@ -2,13 +2,12 @@
 =            Schedule            =
 ===============================-->
 
-<section class="section schedule" id ="schedule">
+
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<div class="section-title">
 					<h3>Event <span class="alternate">Schedule</span></h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore</p>
 				</div>
 			</div>
 		</div>
@@ -17,401 +16,209 @@
 				<div class="schedule-tab">
 					<ul class="nav nav-pills text-center">
 					  <li class="nav-item">
-					    <a class="nav-link active" href="#nov20" data-toggle="pill">
+					    <a class="nav-link active" href="#mar08" data-toggle="pill">
 					    	Day-01
-					    	<span>20 November 2017</span>
+					    	<span>8th March 2023</span>
 					    </a>
 					  </li>
 					  <li class="nav-item">
-					    <a class="nav-link" href="#nov21" data-toggle="pill">
+					    <a class="nav-link" href="#mar09" data-toggle="pill">
 							Day-02
-					    	<span>21 November 2017</span>
+					    	<span>9th March 2023</span>
 					    </a>
 					  </li>
 					  <li class="nav-item">
-					    <a class="nav-link" href="#nov22" data-toggle="pill">
+					    <a class="nav-link" href="#mar10" data-toggle="pill">
 							Day-03
-					    	<span>22 November 2017</span>
+					    	<span>10th March 2023</span>
 					    </a>
 					  </li>
 					</ul>
 				</div>
 				<div class="schedule-contents bg-schedule">
 					<div class="tab-content" id="pills-tabContent">
-					  <div class="tab-pane fade show active schedule-item" id="nov20">
+					  <div class="tab-pane fade show active schedule-item" id="mar08">
 					  	<!-- Headings -->
 					  	<ul class="m-0 p-0">
-					  		<li class="headings">
-					  			<div class="time">Time</div>
-					  			<div class="speaker">Speaker</div>
-					  			<div class="subject">Subject</div>
-					  			<div class="venue">Venue</div>
-					  		</li>
+							@@include('blocks/schedule-title.htm')
 					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-					  				<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">9.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-one.jpg" alt="speaker-thumb-one">
-										<span class="name">Samanta Doe</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium A</div>
-					  			</div>
-					  		</li>
+					  		@@include('blocks/schedule-chair.htm',{
+								"session": "Session-1",
+								"image" : "images/speakers/motz.jpg",
+								"chair-person": "Prof Guenter Motz",
+								"theme" : "PDC for Energy-I"
+							})
+
+							<!-- CONTENT -->
+							@@include('blocks/schedule-item.htm',{
+								"time" : "9:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "10:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "11:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
 					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">10.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-two.jpg" alt="speaker-thumb-two">
-										<span class="name">Zerad Pawel</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Principle of Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium B</div>
-					  			</div>
-					  		</li>
+					  		@@include('blocks/schedule-chair.htm',{
+								"session": "Session-2",
+								"image" : "images/speakers/motz.jpg",
+								"chair-person": "Dr Raj Bordia",
+								"theme" : "PDC for Thermostructural applications-I"
+							})
+
+							<!-- CONTENT -->
+							@@include('blocks/schedule-item.htm',{
+								"time" : "1:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "2:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "3:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+				  		<!-- Schedule Details -->
+					</ul>
+					  </div>
+					  <div class="tab-pane fade schedule-item" id="mar09">
+					  	<!-- Headings -->
+					  	<ul class="m-0 p-0">
+							@@include('blocks/schedule-title.htm')
 					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">12.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-three.jpg" alt="speaker-thumb-three">
-										<span class="name">Henry Mong</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Wp Requirements</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium C</div>
-					  			</div>
-					  		</li>
+					  		@@include('blocks/schedule-chair.htm',{
+								"session": "Session-3",
+								"image" : "images/speakers/motz.jpg",
+								"chair-person": "Dr Renjith Devasia",
+								"theme" : "PDC for Thermostructural applications-II"
+							})
+
+							<!-- CONTENT -->
+							@@include('blocks/schedule-item.htm',{
+								"time" : "9:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "10:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "11:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
 					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">2.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-four.jpg" alt="speaker-thumb-four">
-										<span class="name">Baily Leo</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium D</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-five.jpg" alt="speaker-thumb-five">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-six.jpg" alt="speaker-thumb-six">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
+					  		@@include('blocks/schedule-chair.htm',{
+								"session": "Session-4",
+								"image" : "images/speakers/motz.jpg",
+								"chair-person": "Prof Stefan Schaffoener",
+								"theme" : "PDC for Energy-II"
+							})
+
+							<!-- CONTENT -->
+							@@include('blocks/schedule-item.htm',{
+								"time" : "1:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "2:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "3:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							
+
 					  	</ul>
 					  </div>
-					  <div class="tab-pane fade schedule-item" id="nov21">
+					  <div class="tab-pane fade schedule-item" id="mar10">
 					  	<!-- Headings -->
-					  	<ul class="m-0 p-0">
-					  		<li class="headings">
-					  			<div class="time">Time</div>
-					  			<div class="speaker">Speaker</div>
-					  			<div class="subject">Subject</div>
-					  			<div class="venue">Venue</div>
-					  		</li>
+						  <ul class="m-0 p-0">
+							@@include('blocks/schedule-title.htm')
 					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-					  				<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">9.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-one.jpg" alt="speaker-thumb-one">
-										<span class="name">Samanta Doe</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium A</div>
-					  			</div>
-					  		</li>
+					  		@@include('blocks/schedule-chair.htm',{
+								"session": "Session-5",
+								"image" : "images/speakers/motz.jpg",
+								"chair-person": "Prof Ravi Kumar",
+								"theme" : "PDC for Thermostructural applications-III"
+							})
+
+							<!-- CONTENT -->
+							@@include('blocks/schedule-item.htm',{
+								"time" : "9:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "10:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "11:00 AM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
 					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">10.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-two.jpg" alt="speaker-thumb-two">
-										<span class="name">Zerad Pawel</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Principle of Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium B</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">12.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-three.jpg" alt="speaker-thumb-three">
-										<span class="name">Henry Mong</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Wp Requirements</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium C</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">2.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-four.jpg" alt="speaker-thumb-four">
-										<span class="name">Baily Leo</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium D</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-five.jpg" alt="speaker-thumb-five">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-six.jpg" alt="speaker-thumb-six">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
-					  	</ul>
-					  </div>
-					  <div class="tab-pane fade schedule-item" id="nov22">
-					  	<!-- Headings -->
-					  	<ul class="m-0 p-0">
-					  		<li class="headings">
-					  			<div class="time">Time</div>
-					  			<div class="speaker">Speaker</div>
-					  			<div class="subject">Subject</div>
-					  			<div class="venue">Venue</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-					  				<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">9.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-one.jpg" alt="speaker-thumb-one">
-										<span class="name">Samanta Doe</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium A</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">10.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-two.jpg" alt="speaker-thumb-two">
-										<span class="name">Zerad Pawel</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Principle of Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium B</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">12.00 AM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-three.jpg" alt="speaker-thumb-three">
-										<span class="name">Henry Mong</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Wp Requirements</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium C</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">2.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-four.jpg" alt="speaker-thumb-four">
-										<span class="name">Baily Leo</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Introduction to Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium D</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-five.jpg" alt="speaker-thumb-five">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
-					  		<!-- Schedule Details -->
-					  		<li class="schedule-details">
-					  			<div class="block">
-						  			<!-- time -->
-							  		<div class="time">
-							  			<i class="fa fa-clock-o"></i>
-							  			<span class="time">3.00 PM</span>
-							  		</div>
-							  		<!-- Speaker -->
-							  		<div class="speaker">
-							  			<img src="images/speakers/speaker-thumb-six.jpg" alt="speaker-thumb-six">
-										<span class="name">Lee Mun</span>
-							  		</div>
-							  		<!-- Subject -->
-							  		<div class="subject">Useful tips for Wp</div>
-							  		<!-- Venue -->
-							  		<div class="venue">Auditorium E</div>
-					  			</div>
-					  		</li>
-					  	</ul>
+					  		@@include('blocks/schedule-chair.htm',{
+								"session": "Session-6",
+								"image" : "images/speakers/motz.jpg",
+								"chair-person": "Prof Samuel Bernard",
+								"theme" : "PDC for Traslational Research"
+							})
+
+							<!-- CONTENT -->
+							@@include('blocks/schedule-item.htm',{
+								"time" : "1:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "2:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+							@@include('blocks/schedule-item.htm',{
+								"time" : "3:00 PM",
+								"image" : "images/speakers/motz.jpg",
+								"speaker" :"AN",
+								"title" : "aa"
+							})
+					</ul>
 					  </div>
 					</div>
 				</div>
@@ -423,6 +230,5 @@
 			</div>
 		</div>
 	</div>
-</section>
 
 <!--====  End of Schedule  ====-->
