@@ -64,10 +64,10 @@
 	        text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
 		}
 		h2{
-			text-transform: uppercase;
-			font-size: 4.625rem;
+			// text-transform: uppercase;
+		    font-size: 3.625rem;
 			color: $light;
-			font-weight: 400;
+			font-weight: 800;
 	        text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
 			font-style: italic;
 			@include tablet {

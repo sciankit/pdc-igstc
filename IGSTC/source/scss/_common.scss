@@ -113,6 +113,18 @@
   }
 }
 
+.overlay-kousik{
+  &:before {
+    content: '';
+    background: linear-gradient(0deg, rgba(245,245,248,0.2) 0%, rgba(247,247,247,0.2) 80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
 .overlay-white-slant{
   &:before {
     content: '';

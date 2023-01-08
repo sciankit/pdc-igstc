@@ -179,6 +179,16 @@ ul.social-links li a i {
   bottom: 0;
 }
 
+.overlay-kousik:before {
+  content: "";
+  background: linear-gradient(0deg, rgba(245, 245, 248, 0.2) 0%, rgba(247, 247, 247, 0.2) 80%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .overlay-white-slant:before {
   content: "";
   width: 100%;
@@ -1015,10 +1025,9 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 .banner .block h2 {
-  text-transform: uppercase;
-  font-size: 4.625rem;
+  font-size: 3.625rem;
   color: #fff;
-  font-weight: 400;
+  font-weight: 800;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
   font-style: italic;
 }
