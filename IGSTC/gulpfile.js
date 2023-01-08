@@ -35,9 +35,7 @@ gulp.task("html:build", function () {
         basepath: path.src.incdir,
       })
     )
-    .pipe(
 
-    )
     .pipe(gulp.dest(path.build.dirDev))
     .pipe(
       bs.reload({

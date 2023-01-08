@@ -1,7 +1,7 @@
 {
-  "name": "PDC-IT 2023",
+  "name": "pdc-it",
   "version": "1.0.0",
-  "description": "conference website",
+  "description": "pdc-IT Conference",
   "author": "Ankit Bansal",
   "license": "MIT",
   "scripts": {

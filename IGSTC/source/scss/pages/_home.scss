@@ -256,7 +256,13 @@
 	}
 }
 
+.countdown{
 
+	h2{
+		padding: 25px;
+		margin-bottom: -50px;
+		color: $light;
+	}
 .timer{
 	.syotimer-cell {
 		margin-top: 50px;
@@ -275,12 +281,12 @@
 			text-align: center;
 			position: relative;
 			font-weight: bold;
+			text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 			color: $light;
-			text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 			border: 2px solid $primary-color;
 			margin-bottom: 8px;
 			border-radius: 100%;
-			box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.3);
+			box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
 			@include mobile {
 				font-size: 30px;
 			}
@@ -292,15 +298,16 @@
 		}
 		.syotimer-cell__unit {
 			text-align: center;
-			font-size: 1rem;
-			text-transform: lowercase;
+			font-size: 1.1rem;
+	//	text-transform: lowercase;
 			font-weight:normal;
 			color: $light;
+			font-weight: 500;
 			font-family: $secondary-font;
 		}
 	  }
 }
-
+}
 .schedule{
 	.schedule-tab{
 		display: flex;

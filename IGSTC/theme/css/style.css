@@ -744,42 +744,36 @@ select.form-control:not([size]):not([multiple]) {
 
 .footer-main {
   background: #272735;
-  padding: 90px 0;
+  padding: 45px 0;
 }
 @media (max-width: 767px) {
   .footer-main {
     padding: 50px 0;
   }
 }
-.footer-main .block img {
+.footer-main .bl img {
   margin-bottom: 60px;
 }
-.footer-main .block ul.social-links-footer {
-  margin-bottom: 0;
-}
-.footer-main .block ul.social-links-footer .list-inline-item:not(:last-child) {
-  margin-right: 20px;
-}
-@media (max-width: 575px) {
-  .footer-main .block ul.social-links-footer .list-inline-item:not(:last-child) {
-    margin-right: 5px;
-  }
-}
-.footer-main .block ul.social-links-footer li a {
-  display: block;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  background: #fff;
-}
-.footer-main .block ul.social-links-footer li a i {
-  line-height: 50px;
-}
-.footer-main .block ul.social-links-footer li a:hover {
-  background: #f17c46;
-}
-.footer-main .block ul.social-links-footer li a:hover i {
+.footer-main .footer1 h1 {
   color: #fff;
+  font-size: 20px;
+}
+.footer-main .footer1 p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
+}
+.footer-main .footer2 {
+  text-align: right;
+}
+.footer-main .footer2 h1 {
+  color: #fff;
+  font-size: 20px;
+}
+.footer-main .footer2 p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .subfooter {
@@ -1086,19 +1080,24 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 0px;
 }
 
-.timer .syotimer-cell {
+.countdown h2 {
+  padding: 25px;
+  margin-bottom: -50px;
+  color: #fff;
+}
+.countdown .timer .syotimer-cell {
   margin-top: 50px;
   margin-right: 25px;
   margin-bottom: 33px;
   display: inline-block;
 }
 @media (max-width: 575px) {
-  .timer .syotimer-cell {
+  .countdown .timer .syotimer-cell {
     margin-right: 10px;
     margin-bottom: 20px;
   }
 }
-.timer .syotimer-cell .syotimer-cell__value {
+.countdown .timer .syotimer-cell .syotimer-cell__value {
   min-width: 80px;
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
@@ -1106,31 +1105,31 @@ select.form-control:not([size]):not([multiple]) {
   text-align: center;
   position: relative;
   font-weight: bold;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   color: #fff;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
   border: 2px solid #f17c46;
   margin-bottom: 8px;
   border-radius: 100%;
-  box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 3.5px 6.062px 0px 0px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 575px) {
-  .timer .syotimer-cell .syotimer-cell__value {
+  .countdown .timer .syotimer-cell .syotimer-cell__value {
     font-size: 30px;
   }
 }
 @media (max-width: 400px) {
-  .timer .syotimer-cell .syotimer-cell__value {
+  .countdown .timer .syotimer-cell .syotimer-cell__value {
     min-width: 65px;
     line-height: 61px;
     font-size: 25px;
   }
 }
-.timer .syotimer-cell .syotimer-cell__unit {
+.countdown .timer .syotimer-cell .syotimer-cell__unit {
   text-align: center;
-  font-size: 1rem;
-  text-transform: lowercase;
+  font-size: 1.1rem;
   font-weight: normal;
   color: #fff;
+  font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
 

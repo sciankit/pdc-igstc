@@ -1,43 +1,46 @@
 .footer-main{
 	background: #272735;
-	padding: 90px 0;
+	padding: 45px 0;
 	@include tablet {
 		padding: 50px 0;
 	}
-	.block{
+	.bl{
 		img{
 			margin-bottom: 60px;
 		}
+	}
 
-		ul.social-links-footer{
-			margin-bottom: 0;
-			.list-inline-item:not(:last-child) {
-				margin-right: 20px;
-				@include mobile{
-					margin-right: 5px;
-				}
+		.footer1{
+	
+			h1{
+				color: $light;
+				font-size: $medium;
 			}
-			li{
-				a{
-					display: block;
-					height: 50px;
-					width: 50px;
-					text-align: center;
-					background: $light;
-					i{
-						line-height: 50px;
-					}
-					&:hover{
-						background: $primary-color;
-						i{
-							color: $light;
-						}
-					}
-				}
+			p{
+				color: $light;
+				font-size: 15px;
+				line-height: 22px;
 			}
 		}
-	}
+	
+		.footer2{
+			text-align: right;
+			h1{
+				color: $light;
+				font-size: $medium;
+			}
+			p{
+				color: $light;
+				font-size: 15px;
+				line-height: 22px;
+			}
+		}
+
+
+
+
 }
+
 .subfooter{
 	background: #2a2a37;
 	padding: 18px 0;
