@@ -1,0 +1,132 @@
+.main-nav {
+	background: $gray;
+	@include tablet {
+		position: relative;
+	}
+
+	.navbar-brand {
+		padding: 10px 10px 10px 10px;
+		@include large-desktop {
+			padding: 10px 10px;
+		}
+		@include tablet {
+			border-right: none;
+		}
+	}
+
+	.navbar-nav {
+		.nav-item {
+			position: relative;
+			font-family: $primary-font;
+
+			.nav-link {
+				position: relative;
+				text-align: center;
+				color: $black;
+				padding-left: 5px;
+				padding-right: 10px;
+				padding-top: 1.2rem;
+				padding-bottom: 1.2rem;
+				font-size: 1.06rem;
+				font-family: $secondary-font;
+
+				@include desktop-nav {
+					font-size: 0.86rem;
+					padding-right: 10px;
+				}
+
+				@include large-desktop {
+					padding-left: 4px;
+					padding-right: 10px;
+				}
+
+				@include desktop-sm {
+					padding-top: 0.5rem;
+					padding-bottom: 0.5rem;
+				}
+
+				span {
+					color: $black;
+					margin-left: 16px;
+
+					@include large-desktop {
+						margin-left: 10px;
+					}
+
+					@include desktop {
+						margin-left: 10px;
+					}
+					@include desktop-sm {
+						display: none;
+					}
+				}
+			}
+
+			&:hover,
+			&.active {
+				.nav-link {
+					color: $primary-color;
+				}
+			}
+		}
+	}
+
+	.dropdown {
+		position: relative;
+
+		.open>a,
+		.open>a:focus,
+		.open>a:hover {
+			background: transparent;
+		}
+
+		&.full-width {
+			.dropdown-menu {
+				left: 0 !important;
+				right: 0 !important;
+			}
+		}
+
+		.dropdown-menu {
+			min-width: 220px;
+			margin: 0;
+			padding: 0;
+			border-radius: 0;
+			border: 0;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+
+			.dropdown-item {
+				font-size: 15px;
+				padding: 10px 16px;
+				transition: .3s ease;
+
+				&:hover {
+					background: $light;
+					color: $primary-color;
+				}
+			}
+
+			@include desktop-sm {
+				transform: none;
+				left: auto;
+				position: relative;
+				text-align: center;
+				opacity: 1;
+				visibility: visible;
+				background: rgb(243, 243, 243);
+			}
+		}
+
+			&:hover>.dropdown-menu {
+				border-top: 3px solid $primary-color;
+				opacity: 1;
+				display: block;
+				visibility: visible;
+				color: #777;
+				transform: translateY(0);
+			}
+
+
+		}
+}
