@@ -323,7 +323,7 @@ button:hover {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 45px 0;
 }
 
 .border-less {
@@ -719,10 +719,11 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 .page-title h3, .page-title li, .page-title a {
-  color: #fff;
+  color: #eeeeee;
 }
 .page-title .title h3 {
-  font-weight: 500;
+  font-weight: 800;
+  text-shadow: 3.5px 6.062px 2px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
 }
 .page-title .breadcrumb {
@@ -863,6 +864,49 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
+.slider-div .div-slider .item {
+  padding-bottom: 10px;
+}
+.slider-div .div-slider .item .block {
+  padding: 40px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+.slider-div .div-slider .item .block .image {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .slider-div .div-slider .item .block .image {
+    flex-grow: 1;
+  }
+}
+.slider-div .div-slider .item .block .image img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+.slider-div .div-slider .item .block p {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  color: #888888;
+}
+.slider-div .div-slider .item .block cite {
+  font-style: normal;
+  font-size: 14px;
+  color: #161616;
+}
+.slider-div .div-slider .owl-dots .owl-dot:hover span {
+  background: #f17c46;
+}
+.slider-div .div-slider .owl-dots .owl-dot.active span {
+  background: #f17c46;
+}
+
 .banner {
   padding: 200px 0 50px;
   position: relative;
@@ -872,21 +916,20 @@ select.form-control:not([size]):not([multiple]) {
 }
 .banner .block h1 {
   font-size: 45px;
-  color: #fff;
+  color: #eeeeee;
   font-weight: 600;
   text-shadow: 3.5px 6.062px 2px rgba(0, 0, 0, 0.3);
-  font-style: italic;
   margin-bottom: 15px;
   line-height: 45px;
 }
 .banner .block h2 {
   font-size: 35px;
-  color: #fff;
+  color: #eeeeee;
   font-weight: 600;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
 }
 .banner .block h3 {
-  color: #fff;
+  color: #f17c46;
   font-size: 60px;
   font-weight: 800;
   margin-bottom: 50px;
@@ -1265,6 +1308,18 @@ select.form-control:not([size]):not([multiple]) {
 }
 .map.new .register .block .form-control, .map.new .register .block button {
   margin-bottom: 40px;
+}
+
+.venue {
+  padding: 45px 0;
+}
+.venue .block1 {
+  margin-left: 100px;
+}
+.venue p {
+  text-align: justify;
+  line-height: 24px;
+  margin-bottom: 10px;
 }
 
 .single-speaker .block {
