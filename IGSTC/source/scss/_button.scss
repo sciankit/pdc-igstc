@@ -71,10 +71,11 @@
 	background: $light;
 	color: $black;
     padding: 15px 40px;
+    font-weight: 800px;
     border-radius: 0;
     &:hover{
-        background: $primary-color;
-        color: $light;
+        background: light;
+        color: $secondary-color;
     }
 }
 .btn-title-md{

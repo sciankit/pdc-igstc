@@ -1,17 +1,14 @@
 .slider-div {
 	.div-slider {
 		.item {
-			padding-bottom: 10px;
 
 			.block {
-				padding: 40px;
+				padding: 2px;
 				text-align: center;
-				margin: 10px;
 				border-radius: 5px;
 
 				.image {
-					margin-top: 30px;
-					margin-bottom: 5px;
+
 					width: 100%;
 					display: flex;
 					justify-content: center;
@@ -21,23 +18,13 @@
 					}
 
 					img {
-						height: 40px;
-						width: 40px;
-						border-radius: 100%;
+						height: 280px;
+
+
 					}
 				}
 
-				p {
-					font-family: $secondary-font;
-					font-style: italic;
-					color: #888888;
-				}
 
-				cite {
-					font-style: normal;
-					font-size: 14px;
-					color: #161616;
-				}
 			}
 		}
 

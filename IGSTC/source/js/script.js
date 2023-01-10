@@ -25,28 +25,19 @@
     // -----------------------------
     //  Screenshot Slider
     // -----------------------------
-    $('.speaker-slider').slick({
-      slidesToShow: 3,
-      centerMode: true,
+    $('.div-slider').slick({
+      slidesToShow: 1,
       infinite: true,
+      arrows: false,
       autoplay: true,
-      arrows: true,
-      responsive: [{
-          breakpoint: 1440,
-          settings: {
-            slidesToShow: 3
-          }
-        },
+      autoplaySpeed: 2000,
+      dots: true,
+      responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 991,
           settings: {
-            slidesToShow: 2
-          }
-        },
-        {
-          breakpoint: 500,
-          settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         }
       ]

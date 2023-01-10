@@ -315,7 +315,7 @@
 		h5{
 			color: $primary-color;
 		}
-		margin-bottom: 30px;
+		
 	}
 	.block{
 		.list-inline-item:not(:last-child){
@@ -332,19 +332,16 @@
 			}
 		}
 		.image-block{
-			padding: 45px 0;
+			padding: 10px 0px 10px 0px;
 			width: 244px;
 			cursor: pointer;
 			transition: all .3s ease;
-			border: 1px solid transparent;
+			
 			img{
 				height: 100px;
 			}
 			margin-bottom: 10px;
-			&:hover{
-				@extend .shadow;
-				border: 1px solid $primary-color;
-			}
+		
 		}
 		margin-bottom: 40px;
 	}

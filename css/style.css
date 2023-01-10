@@ -73,7 +73,11 @@ ul.social-links li a i {
   color: #222222;
 }
 
-.shadow, .schedule.two .schedule-contents, .organiser.white .speaker-item:hover, .sponsors .block .image-block:hover, .speakers.white .speaker-item:hover {
+.main {
+  margin-bottom: 1000px;
+}
+
+.shadow, .schedule.two .schedule-contents, .organiser.white .speaker-item:hover, .speakers.white .speaker-item:hover {
   box-shadow: 0px 0px 30px 0px rgba(11, 29, 66, 0.15);
 }
 
@@ -331,12 +335,11 @@ button:hover {
 }
 
 .section-title {
-  margin-top: 25px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .section-title h3 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .section-title.white h3, .section-title.white p {
   color: #fff;
@@ -552,11 +555,12 @@ select.form-control:not([size]):not([multiple]) {
   background: #fff;
   color: #222222;
   padding: 15px 40px;
+  font-weight: 800px;
   border-radius: 0;
 }
 .btn-white-md:hover {
-  background: #f17c46;
-  color: #fff;
+  background: light;
+  color: #199400;
 }
 
 .btn-title-md {
@@ -584,7 +588,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 @media (max-width: 767px) {
   .main-nav {
-    position: relative;
+    position: fixed;
   }
 }
 .main-nav .navbar-brand {
@@ -864,18 +868,12 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
-.slider-div .div-slider .item {
-  padding-bottom: 10px;
-}
 .slider-div .div-slider .item .block {
-  padding: 40px;
+  padding: 2px;
   text-align: center;
-  margin: 10px;
   border-radius: 5px;
 }
 .slider-div .div-slider .item .block .image {
-  margin-top: 30px;
-  margin-bottom: 5px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -886,19 +884,7 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 .slider-div .div-slider .item .block .image img {
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-}
-.slider-div .div-slider .item .block p {
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  color: #888888;
-}
-.slider-div .div-slider .item .block cite {
-  font-style: normal;
-  font-size: 14px;
-  color: #161616;
+  height: 280px;
 }
 .slider-div .div-slider .owl-dots .owl-dot:hover span {
   background: #f17c46;
@@ -1178,7 +1164,6 @@ select.form-control:not([size]):not([multiple]) {
 }
 .sponsors .sponsor-title {
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 .sponsors .sponsor-title h5 {
   color: #f17c46;
@@ -1202,18 +1187,14 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 .sponsors .block .image-block {
-  padding: 45px 0;
+  padding: 10px 0px 10px 0px;
   width: 244px;
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 1px solid transparent;
   margin-bottom: 10px;
 }
 .sponsors .block .image-block img {
   height: 100px;
-}
-.sponsors .block .image-block:hover {
-  border: 1px solid #f17c46;
 }
 .sponsors .sponsor-btn {
   margin-top: 10px;
@@ -1313,13 +1294,32 @@ select.form-control:not([size]):not([multiple]) {
 .venue {
   padding: 45px 0;
 }
-.venue .block1 {
-  margin-left: 100px;
-}
 .venue p {
   text-align: justify;
   line-height: 24px;
   margin-bottom: 10px;
+}
+.venue a {
+  color: #f17c46;
+}
+.venue a:hover {
+  color: #199400;
+}
+
+.address-block {
+  background-color: #f17c46;
+  text-align: center;
+  padding: 10px 20px 30px 20px;
+}
+.address-block h1 {
+  padding: 20px 0px 10px 0px;
+  color: #eeeeee;
+  font-size: 40px;
+}
+.address-block h2 {
+  color: #eeeeee;
+  font-size: 20px;
+  padding: 0px 10px 10px 10px;
 }
 
 .single-speaker .block {
