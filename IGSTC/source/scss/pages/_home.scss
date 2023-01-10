@@ -10,10 +10,10 @@
 		h1{
 			// text-transform: uppercase;
 		    font-size: $LARGE;
-			color: $light;
+			color: $gray;
 			font-weight: 600;
 	        text-shadow: 3.5px 6.062px 2px rgba(0, 0, 0, 0.3);
-			font-style: italic;
+			//font-style: italic;
 			margin-bottom: 15px;
 			line-height: $LARGE;
 			// @include tablet {
@@ -26,7 +26,7 @@
 		h2{
 			// text-transform: uppercase;
 		    font-size: $large;
-			color: $light;
+			color: $gray;
 			font-weight: 600;
 	        text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
 			//font-style: italic;
@@ -39,7 +39,7 @@
 		}
 		
 		h3{
-			color: $light;
+			color: $primary-color;
 			font-size: $huge;
 			font-weight: 800;
 			margin-bottom: 50px;
