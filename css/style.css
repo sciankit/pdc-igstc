@@ -1359,6 +1359,7 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 35px;
 }
 .single-speaker .block .content-block .social-profiles h5 {
+  font-size: 5px;
   font-weight: 400;
   margin-bottom: 25px;
 }
@@ -1389,6 +1390,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .single-speaker .block-2 .personal-info h5,
 .single-speaker .block-2 .skills h5 {
+  font-size: 5px;
   font-weight: 400;
   margin-bottom: 15px;
 }
@@ -1467,6 +1469,7 @@ select.form-control:not([size]):not([multiple]) {
   font-weight: 400;
 }
 .speakers-full-width .speaker-slider .speaker-image .primary-overlay h5 {
+  font-size: 5px;
   padding-top: 25%;
   margin-bottom: 10px;
 }
