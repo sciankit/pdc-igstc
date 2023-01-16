@@ -192,7 +192,7 @@ ul.social-links li a i {
 
 .overlay-kousik:before {
   content: "";
-  background: linear-gradient(0deg, rgba(245, 245, 248, 0.2) 0%, rgba(247, 247, 247, 0.2) 80%);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -722,10 +722,20 @@ select.form-control:not([size]):not([multiple]) {
 .page-title h3, .page-title li, .page-title a {
   color: #eeeeee;
 }
+.page-title .title {
+  text-align: center;
+}
 .page-title .title h3 {
+  display: inline-flex;
   font-weight: 800;
   text-shadow: 3.5px 6.062px 2px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.page-title .title h3 span {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .page-title .breadcrumb {
   background: transparent;
@@ -765,6 +775,12 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 15px;
   line-height: 22px;
 }
+.footer-main .footer1 a {
+  color: #f18350;
+}
+.footer-main .footer1 a:hover {
+  color: #eeeeee;
+}
 .footer-main .footer2 {
   text-align: right;
 }
@@ -776,6 +792,12 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-size: 15px;
   line-height: 22px;
+}
+.footer-main .footer2 a {
+  color: #f18350;
+}
+.footer-main .footer2 a:hover {
+  color: #eeeeee;
 }
 
 .subfooter {

@@ -21,6 +21,10 @@
 				font-size: 15px;
 				line-height: 22px;
 			}
+			a{
+				color: $primary-color;
+				&:hover{color: $gray}
+			}
 		}
 	
 		.footer2{
@@ -33,6 +37,10 @@
 				color: $light;
 				font-size: 15px;
 				line-height: 22px;
+			}
+			a{
+				color: $primary-color;
+				&:hover{color: $gray}
 			}
 		}
 
