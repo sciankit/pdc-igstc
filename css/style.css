@@ -2040,6 +2040,11 @@ select.form-control:not([size]):not([multiple]) {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.table1 .table1-contents table {
+  align-self: center;
 }
 .table1 .table1-contents tr {
   border-bottom: 1px solid #000;
