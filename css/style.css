@@ -2036,6 +2036,21 @@ select.form-control:not([size]):not([multiple]) {
   color: #f17c46;
 }
 
+.table1 .table1-contents {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.table1 .table1-contents tr {
+  border-bottom: 1px solid #000;
+}
+.table1 .table1-contents tr hover {
+  background-color: coral;
+}
+.table1 .table1-contents th, .table1 .table1-contents td {
+  padding: 5px;
+}
+
 .contact-form .form-control {
   margin-bottom: 30px;
 }
