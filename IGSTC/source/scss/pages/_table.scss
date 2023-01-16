@@ -8,14 +8,21 @@
 		justify-content: center;
 		table{
 			align-self: center;
+			margin-top: -40px;
+			margin-bottom: -60px;
 		}
 		tr{
 			border-bottom: 1px solid #000;
-			hover {background-color: coral;}
-		}
-		th,td{
-			padding: 5px;
 			
+		}
+		tr:nth-child(even) {background-color: #f2f2f2;}
+		th,td{
+			padding: 5px 30px 5px 30px;
+			
+		}
+		th{
+			background-color: $primary-color;
+			color: white;
 		}
 		
 
