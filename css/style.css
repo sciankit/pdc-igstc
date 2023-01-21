@@ -2089,6 +2089,15 @@ select.form-control:not([size]):not([multiple]) {
   background-color: #f18350;
   color: white;
 }
+.table1 .points1 {
+  margin-top: 50px;
+  margin-bottom: -50px;
+  justify-content: center;
+  align-self: center;
+}
+.table1 .points1 h3 {
+  font-size: 20px;
+}
 
 .contact-form .form-control {
   margin-bottom: 30px;
