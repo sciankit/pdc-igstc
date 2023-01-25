@@ -2076,6 +2076,12 @@ select.form-control:not([size]):not([multiple]) {
   margin-top: -40px;
   margin-bottom: -60px;
 }
+.table1 .table1-contents a {
+  color: black;
+}
+.table1 .table1-contents a:hover {
+  color: #f18350;
+}
 .table1 .table1-contents tr {
   border-bottom: 1px solid #000;
 }
