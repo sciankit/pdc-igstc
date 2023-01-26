@@ -1216,13 +1216,15 @@ select.form-control:not([size]):not([multiple]) {
 }
 .sponsors .block .image-block {
   padding: 10px 0px 10px 0px;
-  width: 244px;
+  width: auto;
   cursor: pointer;
   transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
 }
 .sponsors .block .image-block img {
-  height: 100px;
+  padding: 0px 10px 0px 10px;
+  height: 50px;
 }
 .sponsors .sponsor-btn {
   margin-top: 10px;

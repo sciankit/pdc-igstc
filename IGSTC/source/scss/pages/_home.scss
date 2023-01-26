@@ -342,12 +342,14 @@
 		}
 		.image-block{
 			padding: 10px 0px 10px 0px;
-			width: 244px;
+			width: auto;
 			cursor: pointer;
 			transition: all .3s ease;
+			background-color: rgba(0, 0, 0, 0.1);
 			
 			img{
-				height: 100px;
+				padding: 0px 10px 0px 10px;
+				height: 50px;
 			}
 			margin-bottom: 10px;
 		
