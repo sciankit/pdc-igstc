@@ -1191,7 +1191,8 @@ select.form-control:not([size]):not([multiple]) {
   position: relative;
 }
 .sponsors .sponsor-title {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .sponsors .sponsor-title h5 {
   color: #f18350;
@@ -1224,7 +1225,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .sponsors .block .image-block img {
   padding: 0px 10px 0px 10px;
-  height: 50px;
+  height: 75px;
 }
 .sponsors .sponsor-btn {
   margin-top: 10px;
