@@ -1227,6 +1227,18 @@ select.form-control:not([size]):not([multiple]) {
   padding: 0px 10px 0px 10px;
   height: 75px;
 }
+.sponsors .block .image-block2 {
+  padding: 10px 0px 10px 0px;
+  width: auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+.sponsors .block .image-block2 img {
+  padding: 0px 10px 0px 10px;
+  height: 100px;
+}
 .sponsors .sponsor-btn {
   margin-top: 10px;
   margin-bottom: 30px;
