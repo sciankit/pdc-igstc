@@ -191,7 +191,7 @@
 	.schedule-contents{
 		margin-top: 30px;
 		margin-bottom: 30px;
-		padding: 30px;
+		padding: 10px;
 		.schedule-item{
 			ul{
 				li{
@@ -200,34 +200,16 @@
 						display: inline-block;
 					}
 					.time{
-						width: 20%;
-						@include tablet {
-							width: 20%;
-						}
-						@include mobile {
-							width: 20%;
-						}
+						width: 15%;
+				
 					}
 					.speaker{
-						width: 30%;
-						@include desktop-sm {
-							width: 30%;
-						}
-						@include tablet {
-							width: 30%;
-						}
-						@include mobile {
-							width: 30%;
-						}
-						img {
-							@include mobile {
-								display: none;
-							}
-						}
+						width: 40%;
+
 					}
 					.subject{
 						text-align: center;
-						width: 45%;
+						width: 40%;
 	
 					}
 

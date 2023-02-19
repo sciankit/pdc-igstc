@@ -1764,7 +1764,7 @@ select.form-control:not([size]):not([multiple]) {
 .schedule .schedule-contents {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 30px;
+  padding: 10px;
 }
 .schedule .schedule-contents .schedule-item ul {
   margin-bottom: 0;
@@ -1776,44 +1776,14 @@ select.form-control:not([size]):not([multiple]) {
   display: inline-block;
 }
 .schedule .schedule-contents .schedule-item ul li .time {
-  width: 20%;
-}
-@media (max-width: 767px) {
-  .schedule .schedule-contents .schedule-item ul li .time {
-    width: 20%;
-  }
-}
-@media (max-width: 575px) {
-  .schedule .schedule-contents .schedule-item ul li .time {
-    width: 20%;
-  }
+  width: 15%;
 }
 .schedule .schedule-contents .schedule-item ul li .speaker {
-  width: 30%;
-}
-@media (max-width: 991px) {
-  .schedule .schedule-contents .schedule-item ul li .speaker {
-    width: 30%;
-  }
-}
-@media (max-width: 767px) {
-  .schedule .schedule-contents .schedule-item ul li .speaker {
-    width: 30%;
-  }
-}
-@media (max-width: 575px) {
-  .schedule .schedule-contents .schedule-item ul li .speaker {
-    width: 30%;
-  }
-}
-@media (max-width: 575px) {
-  .schedule .schedule-contents .schedule-item ul li .speaker img {
-    display: none;
-  }
+  width: 40%;
 }
 .schedule .schedule-contents .schedule-item ul li .subject {
   text-align: center;
-  width: 45%;
+  width: 40%;
 }
 .schedule .schedule-contents .schedule-item li.headings {
   padding: 22px 40px;
