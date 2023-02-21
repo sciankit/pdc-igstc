@@ -6,7 +6,7 @@
   'use strict';
     
   // navbarDropdown
-  if ($(window).width() < 992) {
+  if ($(window).width() < 1752) {
     $('.main-nav [data-toggle="dropdown"]').on('click', function () {
       $(this).siblings('.dropdown-menu').animate({
         height: 'toggle'
